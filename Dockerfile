@@ -1,6 +1,6 @@
 FROM debian:10
 
-ENV PORT=80
+ENV PORT=443
 
 ADD start.sh /start.sh
 
