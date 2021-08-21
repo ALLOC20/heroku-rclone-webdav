@@ -1,7 +1,5 @@
 FROM debian:10
 
-ENV PORT=443
-
 ADD start.sh /start.sh
 
 RUN apt update && apt install -y  curl unzip \
