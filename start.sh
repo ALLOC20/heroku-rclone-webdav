@@ -1,7 +1,7 @@
 # 初始化rclone.conf配置
-rclone config file
-chmod 777 /.rclone.conf
-cat << EOF > /.rclone.conf
+mkdir -p /.config && cd /.config
+mkdir -p /rclone && cd /rclone
+cat << EOF > /rclone.conf
 $rclone
 EOF
 # 启动rclone
