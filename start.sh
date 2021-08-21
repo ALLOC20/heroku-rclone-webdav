@@ -1,5 +1,5 @@
 # 初始化rclone.conf配置
-cat << EOF > /.rclone.conf
+cat << EOF > ～/.config/rclone/rclone.conf
 $rclone
 EOF
 # 启动rclone
